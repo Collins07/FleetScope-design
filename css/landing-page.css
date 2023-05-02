@@ -1,0 +1,44 @@
+/* navigation  */
+
+#nav-link{
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 60px;
+    
+}
+#nav-link:hover{
+    margin-top: 5px;
+    
+}
+#navbar-brand{
+    color: rgb(247, 145, 12);
+    font-weight: bolder;
+    font-size:30px;
+    font-family: mv boli;
+}
+
+
+/* hero */
+
+.trans-fleet{
+    color: rgb(247, 145, 12);
+}
+#get-started{
+    background-color: rgb(247, 145, 12);
+}
+#service-intro{
+    list-style-type: none;
+}
+.bx{
+    color: rgb(247, 145, 12);;
+}
+
+
+/* Media querries */
+@media only screen and (max-width: 600px) {
+    #nav-link{
+        margin-left: 0px;
+        
+    }
+  }
