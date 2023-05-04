@@ -237,18 +237,20 @@ nav .profile-details i{
   border-radius: 12px;
   margin: -15px 0 0 6px;
 }
-.home-content .box .cart.two{
-   color: #2BD47D;
-   background: #C0F2D8;
- }
-.home-content .box .cart.three{
-   color: #ffc233;
-   background: #ffe8b3;
- }
-.home-content .box .cart.four{
-   color: #e05260;
-   background: #f7d4d7;
- }
+
+#check{
+    font-size: 35px;
+    color: green;
+}
+#error{
+    font-size: 35px;
+    color: red;
+}
+#total-vehicles{
+    font-size: 35px;
+    color: orange;
+}
+
 .home-content .total-order{
   font-size: 20px;
   font-weight: 500;
