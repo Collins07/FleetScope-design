@@ -33,3 +33,17 @@
   #register{
     background-color: rgb(247, 145, 12);
   }
+
+  label{
+    font-weight: bold;
+  }
+
+
+
+  /* Media querries */
+@media only screen and (max-width: 600px) {
+  label{
+      text-align: start;
+      
+  }
+}
