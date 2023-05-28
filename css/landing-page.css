@@ -22,6 +22,21 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(247,145,12,0.1) 35%, 
     font-family: "MV Boli", sans-serif;
 }
 
+.login-modal{
+    background-color: orange;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    width: 400px;
+}
+.login-modal:hover{
+    font-weight: bold;
+    color: black;
+}
+
+
 
 /* hero */
 
