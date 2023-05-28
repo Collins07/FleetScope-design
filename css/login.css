@@ -34,3 +34,14 @@
         text-decoration: underline;
         margin-left: 20%;
     }
+
+
+    /* qr code styling */
+ 
+#scanner-container {
+        width: 480px;
+        height: 320px;
+        margin: auto;
+    }
+
+    
