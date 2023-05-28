@@ -27,7 +27,7 @@
                 <div class="col-4 navbar-collapse collapse"  id="navbarColor02">
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item">
-                          <a id="nav-link" class="nav-link" href="login.html">Login
+                          <a id="nav-link" class="nav-link"  href="login.html" data-bs-toggle="modal" data-bs-target="#exampleModal" >Login
                           </a>
                         </li>
                         <li class="nav-item">
@@ -42,12 +42,32 @@
         </div>
       </nav>
 
+      <!-- Modal class -->
+      <div class="modal fade modal-dialog modal-dialog-centered" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
 
       <!-- Hero Section -->
 
       <div class="container col-xxl-12 px-4 py-5" id="hero">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
+            
             <img src="assests/bus2.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
           </div>
           <div class="col-lg-6">
@@ -60,6 +80,7 @@
                     <li><i class='bx bxs-check-circle'></i> Car delearship marketing</li>
                 </ul>
             </p>
+            
             <p class="lead">
                 With us, you are able to manage your fleet of vehicles on your phone with ease
             </p>
