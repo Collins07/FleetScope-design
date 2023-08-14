@@ -1,7 +1,7 @@
 /* navigation  */
 #navigation{
     background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(247,145,12,0.1) 35%, rgb(223, 132, 13) 100%);
+background: linear-gradient(90deg, black 0%, #000000 35%, #3474db  100%);
 }
 
 #nav-link{
@@ -13,14 +13,18 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(247,145,12,0.1) 35%, 
 }
 
 #navbar-brand{
-    color: rgb(247, 145, 12);
+    color: #4286f4 ;
     font-weight: bolder;
+    margin-left: 10px;
     font-size:30px;
     font-family: "MV Boli", sans-serif;
 }
+#logo-brand{
+    margin-left: 3%;
+}
 
 .login-modal{
-    background-color: orange;
+    background-color: #3474db  ;
     text-decoration: none;
     padding: 8px;
     border-radius: 5px;
@@ -38,18 +42,18 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(247,145,12,0.1) 35%, 
 /* hero */
 
 .trans-fleet{
-    color: rgb(247, 145, 12);
+    color: #3474db  ;
     
 }
 #get-started{
-    background-color: rgb(247, 145, 12);
+    background-color: #3474db ;
     box-shadow: rgb(13, 13, 14) 0px 20px 30px -10px;
 }
 #service-intro{
     list-style-type: none;
 }
 .bx{
-    color: rgb(247, 145, 12);
+    color: #3474db  ;
     font-size: 22px;
 }
 

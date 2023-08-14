@@ -11,7 +11,7 @@
   height: 100%;
   width: 240px;
   transition: all 0.5s ease;
-  background: rgb(247, 145, 12);
+  background: #316dcf ;
 }
 .sidebar.active{
   width: 20px;
